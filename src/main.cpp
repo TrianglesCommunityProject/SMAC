@@ -968,8 +968,14 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     int64_t nSubsidy = 1 * COIN;
 
     if(nHeight == 1) {
-    nSubsidy = 500000 * COIN;
-    } else if(nHeight >= 2 && nHeight <= 4322) {
+        // ICO Funds
+        nSubsidy = 543272.72700000 * COIN;
+    } else if(nHeight >= 2 && nHeight <= 2881) {
+        // Two days of no rewards
+        nSubsidy = 0;
+    } else if(nHeight>=2882 && nHeight<=7202){
+        // Three days of PoW
+        nSubsidy = 1;
     }
 
 
@@ -1009,7 +1015,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
         nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
-        printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
+        printf("GetProofOfWorkReward() : nRewardCoinYear=%s create=%s nSubsidy=%"PRId64"\n", nRewardCoinYear,FormatMoney(nSubsidy).c_str(), nSubsidy);
 
     return nSubsidy + nFees;
 }
@@ -2510,7 +2516,7 @@ bool LoadBlockIndex(bool fAllowNew)
 
         const char* pszTimestamp = "SMAC - Social Media Advertisement Coin is born. 2/10/2015";
         CTransaction txNew;
-        txNew.nTime = X;
+        txNew.nTime = 1423623292;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2520,22 +2526,15 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = X;
+        block.nTime    = 1423623292;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = X;
+        block.nNonce   = 198012;
         if(fTestNet)
         {
            block.nNonce   = 0;
          }
-
-        block.print();
-        printf("block.GetHash() == %s\n", block.GetHash().ToString().c_str());
-        printf("block.hashMerkleRoot == %s\n", block.hashMerkleRoot.ToString().c_str());
-        printf("block.nTime = %u \n", block.nTime);
-        printf("block.nNonce = %u \n", block.nNonce);
-
        //// debug print
-       assert(block.hashMerkleRoot == uint256(""));
+       assert(block.hashMerkleRoot == uint256("c98467795feed1d71a9eb23faf579d0ee84b8c7dcfd1e5626990cc4e88deb65f"));
        block.print();
        assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
        assert(block.CheckBlock());

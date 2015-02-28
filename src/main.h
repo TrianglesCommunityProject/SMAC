@@ -26,7 +26,7 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
-static const int LAST_POW_BLOCK = 4322;
+static const int LAST_POW_BLOCK = 7202;
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
@@ -37,7 +37,7 @@ static const int64_t MIN_TX_FEE = 0.00000001;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 100000000 * COIN;
 static const int64_t COIN_YEAR_REWARD = 3 * CENT;
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 3 * CENT;
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 1 * CENT;
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
@@ -49,7 +49,7 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-static const uint256 hashGenesisBlock("");
+static const uint256 hashGenesisBlock("000007c60d6ffbbd142a615b1ce7e0344aa6c85f1eb0073d3b5d2c153b692d6e");
 static const uint256 hashGenesisBlockTestNet("");
 
 inline int64_t PastDrift(int64_t nTime)   { return nTime - 24 * 60 * 60; } // up to 1 day from the past

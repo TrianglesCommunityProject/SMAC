@@ -9,7 +9,7 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X europecoind build instructions
+Mac OS X smacd build instructions
 ---------------------------------------
 
 See readme-qt.rst for instructions on building SMAC QT, the
@@ -41,15 +41,15 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build europecoind:
+4.  Now you should be able to build smacd:
 
-cd europecoin/src
+cd SMAC/src
 make -f makefile.osx
 
 Run:
   ./smacd --help  # for a list of command-line options.
 Run
-  ./smacd -daemon # to start the europecoin daemon.
+  ./smacd -daemon # to start the SMAC daemon.
 Run
   ./smacd help # When the daemon is running, to get a list of RPC commands
 

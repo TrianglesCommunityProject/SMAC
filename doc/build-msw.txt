@@ -81,7 +81,7 @@ cp *.h miniupnpc/
 SMAC
 ----------
 DOS prompt:
-cd \europecoin\src
+cd \SMAC\src
 mingw32-make -f makefile.mingw
 strip smacd.exe
 

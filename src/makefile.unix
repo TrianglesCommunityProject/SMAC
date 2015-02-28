@@ -148,9 +148,9 @@ OBJS= \
     obj/scrypt.o \
     obj/scrypt-arm.o \
     obj/scrypt-x86.o \
-    obj/scrypt-x86_64.o 
+    obj/scrypt-x86_64.o
 
-all: skynetd
+all: smacd
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -190,12 +190,12 @@ obj/%.o: %.c
 		  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
 		     -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 		  rm -f $(@:%.o=%.d)
-		  
-skynetd: $(OBJS:obj/%=obj/%)
+
+smacd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f skynetd
+	-rm -f smacd
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/build.h
