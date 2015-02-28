@@ -154,7 +154,7 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o \
 
-all: smacd
+all: skynetd
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -196,11 +196,11 @@ obj/%.o: %.c
 	  rm -f $(@:%.o=%.d)
 
 
-smacd: $(OBJS:obj/%=obj/%)
+skynetd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-        -rm -f smacd
+        -rm -f skynetd
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/build.h

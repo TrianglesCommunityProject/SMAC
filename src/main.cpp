@@ -969,13 +969,13 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 
     if(nHeight == 1) {
         // ICO Funds
-        nSubsidy = 543272.72700000 * COIN;
+        nSubsidy = 543272.72700002 * COIN;
     } else if(nHeight >= 2 && nHeight <= 2881) {
         // Two days of no rewards
-        nSubsidy = 0;
+        nSubsidy = 0 * COIN;
     } else if(nHeight>=2882 && nHeight<=7202){
         // Three days of PoW
-        nSubsidy = 1;
+        nSubsidy = 1 * COIN;
     }
 
 

@@ -148,7 +148,7 @@ OBJS= \
     obj/scrypt.o \
     obj/scrypt-arm.o \
     obj/scrypt-x86.o \
-    obj/scrypt-x86_64.o
+    obj/scrypt-x86_64.o 
 
 all: smacd
 
@@ -190,7 +190,7 @@ obj/%.o: %.c
 		  sed -e 's/#.*//' -e 's/^[^:]*: *//' -e 's/ *\\$$//' \
 		     -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 		  rm -f $(@:%.o=%.d)
-
+		  
 smacd: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 

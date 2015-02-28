@@ -357,7 +357,7 @@ first: all
 
 all: Makefile smac-qt.app/Contents/PkgInfo smac-qt.app/Contents/Resources/empty.lproj smac-qt.app/Contents/Info.plist smac-qt.app/Contents/Resources/bitcoin.icns $(TARGET)
 
-$(TARGET): /Users/boxxa/Desktop/smacsource/src/leveldb/libleveldb.a /Users/skyhaven/Desktop/smacsource/build/build.h build/ui_coincontroldialog.h build/ui_sendcoinsdialog.h build/ui_addressbookpage.h build/ui_signverifymessagedialog.h build/ui_aboutdialog.h build/ui_editaddressdialog.h build/ui_transactiondescdialog.h build/ui_overviewpage.h build/ui_sendcoinsentry.h build/ui_askpassphrasedialog.h build/ui_rpcconsole.h build/ui_optionsdialog.h $(OBJECTS)
+$(TARGET): /Users/boxxa/Desktop/smacsource/src/leveldb/libleveldb.a /Users/boxxa/Desktop/smacsource/build/build.h build/ui_coincontroldialog.h build/ui_sendcoinsdialog.h build/ui_addressbookpage.h build/ui_signverifymessagedialog.h build/ui_aboutdialog.h build/ui_editaddressdialog.h build/ui_transactiondescdialog.h build/ui_overviewpage.h build/ui_sendcoinsentry.h build/ui_askpassphrasedialog.h build/ui_rpcconsole.h build/ui_optionsdialog.h $(OBJECTS)
         @$(CHK_DIR_EXISTS) smac-qt.app/Contents/MacOS/ || $(MKDIR) smac-qt.app/Contents/MacOS/
 	$(LINK) $(LFLAGS) -o $(TARGET) $(OBJECTS) $(OBJCOMP) $(LIBS)
 
@@ -456,7 +456,7 @@ dist:
 
 clean:compiler_clean
 	-$(DEL_FILE) $(OBJECTS)
-	-$(DEL_FILE) /Users/skyhaven/Desktop/smacsource/src/leveldb/libleveldb.a; cd /Users/boxxa/Desktop/smacsource/src/leveldb ; $(MAKE) clean
+	-$(DEL_FILE) /Users/boxxa/Desktop/smacsource/src/leveldb/libleveldb.a; cd /Users/boxxa/Desktop/smacsource/src/leveldb ; $(MAKE) clean
 	-$(DEL_FILE) *~ core *.core
 
 
