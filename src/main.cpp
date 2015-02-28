@@ -969,7 +969,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
 
     if(nHeight == 1) {
         // ICO Funds
-        nSubsidy = 543272.72700002 * COIN;
+        nSubsidy = 543122.74370985 * COIN;
     } else if(nHeight >= 2 && nHeight <= 2881) {
         // Two days of no rewards
         nSubsidy = 0 * COIN;
@@ -992,12 +992,12 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     int64_t nRewardCoinYear;
 
     nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE;
-
-    if(pindexBest->nHeight < 30 * DAILY_BLOCKCOUNT)
+    // Off set 2 days so ICO days are not wasted
+    if(pindexBest->nHeight < 32 * DAILY_BLOCKCOUNT)
         nRewardCoinYear = 365 * MAX_MINT_PROOF_OF_STAKE;
-    else if(pindexBest->nHeight < 60 * DAILY_BLOCKCOUNT)
-        nRewardCoinYear = 120 * MAX_MINT_PROOF_OF_STAKE;
-    else if(pindexBest->nHeight < 365 * DAILY_BLOCKCOUNT)
+    else if(pindexBest->nHeight < 62 * DAILY_BLOCKCOUNT)
+        nRewardCoinYear = 100 * MAX_MINT_PROOF_OF_STAKE;
+    else if(pindexBest->nHeight < 92 * DAILY_BLOCKCOUNT)
         nRewardCoinYear = 25 * MAX_MINT_PROOF_OF_STAKE;
     else
         nRewardCoinYear = 3 * MAX_MINT_PROOF_OF_STAKE;
@@ -1015,7 +1015,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
         nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
     if (fDebug && GetBoolArg("-printcreation"))
-        printf("GetProofOfWorkReward() : nRewardCoinYear=%s create=%s nSubsidy=%"PRId64"\n", nRewardCoinYear,FormatMoney(nSubsidy).c_str(), nSubsidy);
+        printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
     return nSubsidy + nFees;
 }
