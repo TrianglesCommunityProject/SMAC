@@ -10,7 +10,7 @@ http://smac.io
 ````
 apt-get install -y ntp git build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libcurl4-openssl-dev automake make
 ````
-````
+
 For smaller RAM systems, you may need to create a swap file for systems to build.
 This usually happens with under 1GB RAM
 UBUNTU:
