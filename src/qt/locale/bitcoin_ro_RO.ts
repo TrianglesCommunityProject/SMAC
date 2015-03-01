@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skynet</source>
-        <translation>Despre Skynet</translation>
+        <source>About SMAC</source>
+        <translation>Despre SMAC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skynet&lt;/b&gt; version</source>
-        <translation>Versiune &lt;b&gt;Skynet&lt;/b&gt;</translation>
+        <source>&lt;b&gt;SMAC&lt;/b&gt; version</source>
+        <translation>Versiune &lt;b&gt;SMAC&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</source>
+Copyright © 2014 The SMAC developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</translation>
+Copyright © 2014 The SMAC developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Skynet addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Acestea sunt adresele Skynet pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
+        <source>These are your SMAC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Acestea sunt adresele SMAC pentru a primi plăți. Poate doriți sa dați o adresa noua fiecarui expeditor pentru a putea ține evidența la cine efectuează plăti.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skynet address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Skynet</translation>
+        <source>Sign a message to prove you own a SMAC address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă SMAC</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Skynet address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Skynet</translation>
+        <source>Verify a message to ensure it was signed with a specified SMAC address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă SMAC</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-58"/>
-        <source>Skynet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Skynet se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
+        <source>SMAC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SMAC se va inchide pentru a termina procesul de encriptie. Amintiți-vă, criptarea portofelul dumneavoastră nu poate proteja pe deplin monedele dvs. de a fi furate de  infectarea cu malware a computerului.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Skynet</source>
-        <translation>Arată informații despre Skynet</translation>
+        <source>Show information about SMAC</source>
+        <translation>Arată informații despre SMAC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Skynet address</source>
-        <translation>Trimite monede către o adresă Skynet</translation>
+        <source>Send coins to a SMAC address</source>
+        <translation>Trimite monede către o adresă SMAC</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Skynet</source>
-        <translation>Modifică opțiuni de configurare pentru Skynet</translation>
+        <source>Modify configuration options for SMAC</source>
+        <translation>Modifică opțiuni de configurare pentru SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-202"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Skynet</source>
-        <translation>Despre Skynet</translation>
+        <source>&amp;About SMAC</source>
+        <translation>Despre SMAC</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -503,7 +503,7 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+1"/>
         <source>Lock wallet</source>
-        <translation>Blochează portofelul</translation>
+        <translation>Blocheaz�� portofelul</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -539,13 +539,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Skynet client</source>
-        <translation>Clientul Skynet</translation>
+        <source>SMAC client</source>
+        <translation>Clientul SMAC</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Skynet network</source>
-        <translation><numerusform>%n conexiune activă la reteaua Skynet</numerusform><numerusform>%n conexiuni active la reteaua Skynet</numerusform><numerusform>%n conexiuni active la reteaua Skynet</numerusform></translation>
+        <source>%n active connection(s) to SMAC network</source>
+        <translation><numerusform>%n conexiune activă la reteaua SMAC</numerusform><numerusform>%n conexiuni active la reteaua SMAC</numerusform><numerusform>%n conexiuni active la reteaua SMAC</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Acest produs include programe dezvoltate de către OpenSSL Project pentru a fi f
     </message>
     <message>
         <location line="-312"/>
-        <source>About Skynet card</source>
-        <translation>Despre cardul Skynet</translation>
+        <source>About SMAC card</source>
+        <translation>Despre cardul SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Skynet card</source>
-        <translation>Arată informații despre card Skynet</translation>
+        <source>Show information about SMAC card</source>
+        <translation>Arată informații despre card SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skynet address or malformed URI parameters.</source>
-        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa Skynet invalidă sau parametrii URI malformați.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SMAC address or malformed URI parameters.</source>
+        <translation>URI nu poate fi parsatt! Cauza poate fi o adresa SMAC invalidă sau parametrii URI malformați.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Skynet can no longer continue safely and will quit.</source>
-        <translation>A apărut o eroare fatală. Skynet nu mai poate continua în condiții de siguranță și va iesi.</translation>
+        <source>A fatal error occurred. SMAC can no longer continue safely and will quit.</source>
+        <translation>A apărut o eroare fatală. SMAC nu mai poate continua în condiții de siguranță și va iesi.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skynet address.</source>
-        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă Skynet validă</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SMAC address.</source>
+        <translation>Adresa introdusă &quot;%1&quot; nu este o adresă SMAC validă</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Skynet-Qt</source>
-        <translation>Skynet-Qt</translation>
+        <source>SMAC-Qt</source>
+        <translation>SMAC-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skynet after logging in to the system.</source>
-        <translation>Pornește Skynet imdiat după logarea în sistem</translation>
+        <source>Automatically start SMAC after logging in to the system.</source>
+        <translation>Pornește SMAC imdiat după logarea în sistem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skynet on system login</source>
-        <translation>$Pornește Skynet la logarea în sistem</translation>
+        <source>&amp;Start SMAC on system login</source>
+        <translation>$Pornește SMAC la logarea în sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skynet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Deschide automat portul pentru cientul Skynet pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
+        <source>Automatically open the SMAC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Deschide automat portul pentru cientul SMAC pe router. Aces lucru este posibil doara daca routerul suporta UPnP si este activat</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skynet network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conecteaza la reteaua Skynet prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
+        <source>Connect to the SMAC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conecteaza la reteaua SMAC prinr-un proxy SOCKS(ex. cand te conectezi prin Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skynet.</source>
-        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea Skynet.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SMAC.</source>
+        <translation>Limba interfeței utilizator poate fi setat aici. Această setare va avea efect după repornirea SMAC.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skynet addresses in the transaction list or not.</source>
-        <translation>Dacă să arate adrese Skynet din lista de tranzacție sau nu.</translation>
+        <source>Whether to show SMAC addresses in the transaction list or not.</source>
+        <translation>Dacă să arate adrese SMAC din lista de tranzacție sau nu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skynet.</source>
-        <translation>Aceasta setare va avea efect dupa repornirea Skynet.</translation>
+        <source>This setting will take effect after restarting SMAC.</source>
+        <translation>Aceasta setare va avea efect dupa repornirea SMAC.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skynet network after a connection is established, but this process has not completed yet.</source>
-        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua Skynet după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SMAC network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informatia afisata poate fi depasita.  Portofel se sincronizează automat cu rețeaua SMAC după ce se stabilește o conexiune, dar acest proces nu s-a finalizat încă.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skynet-Qt help message to get a list with possible Skynet command-line options.</source>
-        <translation>Afișa mesajul de ajutor Skynet-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă Skynet.</translation>
+        <source>Show the SMAC-Qt help message to get a list with possible SMAC command-line options.</source>
+        <translation>Afișa mesajul de ajutor SMAC-Qt pentru a obține o listă cu posibile opțiuni de linie de comandă SMAC.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Skynet - Debug window</source>
-        <translation>Skynet - fereastră depanare</translation>
+        <source>SMAC - Debug window</source>
+        <translation>SMAC - fereastră depanare</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skynet Core</source>
-        <translation>Skynet Core</translation>
+        <source>SMAC Core</source>
+        <translation>SMAC Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skynet debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Deschideti fisierul de depanare Skynet din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
+        <source>Open the SMAC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Deschideti fisierul de depanare SMAC din folderul curent. Acest lucru poate dura cateva secunde pentru fisiere de log mari.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Skynet RPC console.</source>
-        <translation>Bine ati venit la consola Skynet RPC.</translation>
+        <source>Welcome to the SMAC RPC console.</source>
+        <translation>Bine ati venit la consola SMAC RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introduceți o adresă Skynet(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introduceți o adresă SMAC(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Skynet address</source>
-        <translation>Atenție: Adresă Skynet invalidă</translation>
+        <source>WARNING: Invalid SMAC address</source>
+        <translation>Atenție: Adresă SMAC invalidă</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1940,8 +1940,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introduceți o adresă Skynet(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introduceți o adresă SMAC(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
 </context>
 <context>
@@ -2001,8 +2001,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skynet address</source>
-        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă Skynet</translation>
+        <source>Sign the message to prove you own this SMAC address</source>
+        <translation>Semnează un mesaj pentru a dovedi că dețineti o adresă SMAC</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skynet address</source>
-        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă Skynet</translation>
+        <source>Verify the message to ensure it was signed with the specified SMAC address</source>
+        <translation>Verifică un mesaj pentru a vă asigura că a fost semnat cu o anumită adresă SMAC</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introduceți o adresă Skynet(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introduceți o adresă SMAC(ex:Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skynet signature</source>
-        <translation>Introduceti semnatura Skynet</translation>
+        <source>Enter SMAC signature</source>
+        <translation>Introduceti semnatura SMAC</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Skynet version</source>
-        <translation>Versiune Skynet</translation>
+        <source>SMAC version</source>
+        <translation>Versiune SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2810,8 +2810,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skynet will not work properly.</source>
-        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit Skynet nu va functiona corect.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SMAC will not work properly.</source>
+        <translation>Atentie: Va rugam verificati ca timpul si data calculatorului sunt corete. Daca timpul este gresit SMAC nu va functiona corect.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3006,7 +3006,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </source>
         <translation>%s, trebuie să configurați o parolă rpc în fișierul de configurare: %s
 Este recomandat să folosiți următoarea parolă generată aleator: rpcuser=europecoinrpc
@@ -3015,7 +3015,7 @@ rpcpassword=%s
 Username-ul și parola NU TREBUIE să fie aceleași.
 Dacă fișierul nu există, creați-l cu drepturi de citire doar de către deținător.
 Este deasemenea recomandat să setați alertnotify pentru a fi notificat de probleme;
-de exemplu: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+de exemplu: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3140,13 +3140,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Skynet is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  SMAC is probably already running.</source>
         <translation>Nu se poate obtine un lock pe directorul de date &amp;s. Blackoin probabil ruleaza deja.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skynet</source>
-        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de Skynet</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SMAC</source>
+        <translation>Eroare la încărcarea wallet.dat: Portofelul necesita o versiune mai noua de SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Skynet to complete</source>
-        <translation>A fost nevoie de rescrierea portofelului: restartați Skynet pentru a finaliza</translation>
+        <source>Wallet needed to be rewritten: restart SMAC to complete</source>
+        <translation>A fost nevoie de rescrierea portofelului: restartați SMAC pentru a finaliza</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ de exemplu: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Skynet is probably already running.</source>
-        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil Skynet ruleaza</translation>
+        <source>Unable to bind to %s on this computer. SMAC is probably already running.</source>
+        <translation>Imposibil de conectat %s pe acest computer. Cel mai probabil SMAC ruleaza</translation>
     </message>
     <message>
         <location line="-97"/>

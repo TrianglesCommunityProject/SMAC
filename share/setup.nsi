@@ -1,4 +1,4 @@
-Name Skynet
+Name SMAC
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,7 +6,7 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.3.0
-!define COMPANY "Skynet project"
+!define COMPANY "SMAC project"
 !define URL http://www.europe-coin.com/
 
 # MUI Symbol Definitions
@@ -20,7 +20,7 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
 !define MUI_STARTMENUPAGE_DEFAULTFOLDER NovaCoin
-#!define MUI_FINISHPAGE_RUN $INSTDIR\Skynet-Qt.exe
+#!define MUI_FINISHPAGE_RUN $INSTDIR\SMAC-Qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -46,13 +46,13 @@ Var StartMenuGroup
 
 # Installer attributes
 OutFile europecoin-1.0.0-win32-setup.exe
-InstallDir $PROGRAMFILES\Skynet
+InstallDir $PROGRAMFILES\SMAC
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion 0.3.0.0
-VIAddVersionKey ProductName Skynet
+VIAddVersionKey ProductName SMAC
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -66,7 +66,7 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    #File ../release/Skynet-Qt.exe
+    #File ../release/SMAC-Qt.exe
     File /oname=license.txt ../COPYING
     File /oname=readme.txt ../doc/README.txt
     SetOutPath $INSTDIR\daemon
@@ -87,7 +87,7 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Skynet.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall SMAC.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -100,9 +100,9 @@ Section -post SEC0001
 
     # bitcoin: URI handling disabled for 0.6.0
     #    WriteRegStr HKCR "europecoin" "URL Protocol" ""
-    #    WriteRegStr HKCR "europecoin" "" "URL:Skynet"
-    #    WriteRegStr HKCR "europecoin\DefaultIcon" "" $INSTDIR\Skynet-Qt.exe
-    #    WriteRegStr HKCR "europecoin\shell\open\command" "" '"$INSTDIR\Skynet-Qt.exe" "$$1"'
+    #    WriteRegStr HKCR "europecoin" "" "URL:SMAC"
+    #    WriteRegStr HKCR "europecoin\DefaultIcon" "" $INSTDIR\SMAC-Qt.exe
+    #    WriteRegStr HKCR "europecoin\shell\open\command" "" '"$INSTDIR\SMAC-Qt.exe" "$$1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -120,7 +120,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    #Delete /REBOOTOK $INSTDIR\Skynet-Qt.exe
+    #Delete /REBOOTOK $INSTDIR\SMAC-Qt.exe
     Delete /REBOOTOK $INSTDIR\license.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -130,9 +130,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Skynet.lnk"
-    #Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Skynet.lnk"
-    #Delete /REBOOTOK "$SMSTARTUP\Skynet.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall SMAC.lnk"
+    #Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\SMAC.lnk"
+    #Delete /REBOOTOK "$SMSTARTUP\SMAC.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log

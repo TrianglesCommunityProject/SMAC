@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skynet</source>
-        <translation>O Skynet</translation>
+        <source>About SMAC</source>
+        <translation>O SMAC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skynet&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Skynet&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;SMAC&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SMAC&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</source>
+Copyright © 2014 The SMAC developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</translation>
+Copyright © 2014 The SMAC developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Skynet addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Skynet adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
+        <source>These are your SMAC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše SMAC adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skynet address</source>
-        <translation>Podpísať správu, že vlastníte Skynet adresu</translation>
+        <source>Sign a message to prove you own a SMAC address</source>
+        <translation>Podpísať správu, že vlastníte SMAC adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Skynet address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Skynet adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified SMAC address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou SMAC adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>Skynet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Skynet sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>SMAC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SMAC sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Skynet</source>
-        <translation>Zobraziť informácie o Skynet</translation>
+        <source>Show information about SMAC</source>
+        <translation>Zobraziť informácie o SMAC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Skynet address</source>
-        <translation>Poslať mince na Skynet adresu</translation>
+        <source>Send coins to a SMAC address</source>
+        <translation>Poslať mince na SMAC adresu</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Skynet</source>
-        <translation>Upraviť možnosti konfigurácie pre Skynet</translation>
+        <source>Modify configuration options for SMAC</source>
+        <translation>Upraviť možnosti konfigurácie pre SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-202"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Skynet</source>
-        <translation>&amp;O Skynet</translation>
+        <source>&amp;About SMAC</source>
+        <translation>&amp;O SMAC</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Skynet client</source>
-        <translation>Skynet client</translation>
+        <source>SMAC client</source>
+        <translation>SMAC client</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Skynet network</source>
-        <translation><numerusform>%n aktívne spojenie s Skynet sieťov</numerusform><numerusform>%n aktívnych spojení s Skynet sieťov</numerusform><numerusform>%n aktívnych spojení s Skynet sieťov</numerusform></translation>
+        <source>%n active connection(s) to SMAC network</source>
+        <translation><numerusform>%n aktívne spojenie s SMAC sieťov</numerusform><numerusform>%n aktívnych spojení s SMAC sieťov</numerusform><numerusform>%n aktívnych spojení s SMAC sieťov</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-312"/>
-        <source>About Skynet card</source>
-        <translation>O Skynet karte</translation>
+        <source>About SMAC card</source>
+        <translation>O SMAC karte</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Skynet card</source>
-        <translation>Zobraziť informácie o Skynet karte</translation>
+        <source>Show information about SMAC card</source>
+        <translation>Zobraziť informácie o SMAC karte</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -668,8 +668,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skynet address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou Skynet adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SMAC address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou SMAC adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -728,8 +728,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Skynet can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Skynet už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. SMAC can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. SMAC už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skynet address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Skynet adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SMAC address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou SMAC adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Skynet-Qt</source>
-        <translation>Skynet-Qt</translation>
+        <source>SMAC-Qt</source>
+        <translation>SMAC-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skynet after logging in to the system.</source>
-        <translation>Automaticky spustiť Skynet po prihlásení sa do systému.</translation>
+        <source>Automatically start SMAC after logging in to the system.</source>
+        <translation>Automaticky spustiť SMAC po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skynet on system login</source>
-        <translation>&amp;Spustiť Skynet pri prihlásení do systému</translation>
+        <source>&amp;Start SMAC on system login</source>
+        <translation>&amp;Spustiť SMAC pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1179,8 +1179,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skynet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Skynet na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the SMAC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta SMAC na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1189,8 +1189,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skynet network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti Skynet cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the SMAC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti SMAC cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1264,8 +1264,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skynet.</source>
-        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní Skynet.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SMAC.</source>
+        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní SMAC.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1279,8 +1279,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skynet addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť Skynet adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show SMAC addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť SMAC adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1326,8 +1326,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skynet.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Skynet.</translation>
+        <source>This setting will take effect after restarting SMAC.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní SMAC.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1345,8 +1345,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skynet network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Skynet po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SMAC network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou SMAC po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1561,8 +1561,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skynet-Qt help message to get a list with possible Skynet command-line options.</source>
-        <translation>Zobraziť Skynet-Qt nápovedu k získaniu zoznamu pre možnosti Skynet príkazového riadku.</translation>
+        <source>Show the SMAC-Qt help message to get a list with possible SMAC command-line options.</source>
+        <translation>Zobraziť SMAC-Qt nápovedu k získaniu zoznamu pre možnosti SMAC príkazového riadku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,13 +1581,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-104"/>
-        <source>Skynet - Debug window</source>
-        <translation>Skynet - Ladiace okno</translation>
+        <source>SMAC - Debug window</source>
+        <translation>SMAC - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skynet Core</source>
-        <translation>Skynet Core</translation>
+        <source>SMAC Core</source>
+        <translation>SMAC Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1596,8 +1596,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skynet debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Skynet ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
+        <source>Open the SMAC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte SMAC ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1606,8 +1606,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Skynet RPC console.</source>
-        <translation>Vitajte v Skynet RPC konzole.</translation>
+        <source>Welcome to the SMAC RPC console.</source>
+        <translation>Vitajte v SMAC RPC konzole.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1765,8 +1765,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Zadajte Skynet adresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Zadajte SMAC adresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1865,8 +1865,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Skynet address</source>
-        <translation>VAROVANIE: Neplatná Skynet adresa</translation>
+        <source>WARNING: Invalid SMAC address</source>
+        <translation>VAROVANIE: Neplatná SMAC adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1939,8 +1939,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Zadaj a Skynet addresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Zadaj a SMAC addresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
 </context>
 <context>
@@ -2000,8 +2000,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skynet address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Skynet adresu</translation>
+        <source>Sign the message to prove you own this SMAC address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto SMAC adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2032,8 +2032,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skynet address</source>
-        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou Skynet adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified SMAC address</source>
+        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou SMAC adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2043,8 +2043,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Zadajte Skynet adresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Zadajte SMAC adresu (napr. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2053,8 +2053,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skynet signature</source>
-        <translation>Zadajte Skynet podpis</translation>
+        <source>Enter SMAC signature</source>
+        <translation>Zadajte SMAC podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2624,8 +2624,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Skynet version</source>
-        <translation>Skynet verzia</translation>
+        <source>SMAC version</source>
+        <translation>SMAC verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2809,8 +2809,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skynet will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Skynet nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SMAC will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny SMAC nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3005,7 +3005,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
@@ -3016,7 +3016,7 @@ rpcpassword=%s
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3140,13 +3140,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Skynet is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. Skynet už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  SMAC is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. SMAC už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skynet</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Skynet</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SMAC</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Skynet to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Skynet k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart SMAC to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte SMAC k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Skynet is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Skynet je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. SMAC is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. SMAC je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

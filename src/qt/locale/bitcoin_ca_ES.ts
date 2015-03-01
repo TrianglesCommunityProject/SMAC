@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skynet</source>
-        <translation>Sobre Skynet</translation>
+        <source>About SMAC</source>
+        <translation>Sobre SMAC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skynet&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;Skynet&lt;/b&gt;</translation>
+        <source>&lt;b&gt;SMAC&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;SMAC&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</source>
+Copyright © 2014 The SMAC developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</translation>
+Copyright © 2014 The SMAC developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Skynet addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Skynet per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your SMAC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de SMAC per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skynet address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Skynet</translation>
+        <source>Sign a message to prove you own a SMAC address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça SMAC</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Skynet address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Skynet especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified SMAC address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça SMAC especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-58"/>
-        <source>Skynet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Skynet tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació de la seva cartera no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>SMAC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SMAC tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació de la seva cartera no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Skynet</source>
-        <translation>Mostra informació sobre Skynet</translation>
+        <source>Show information about SMAC</source>
+        <translation>Mostra informació sobre SMAC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -422,13 +422,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Skynet address</source>
-        <translation>Enviar monedes a una adreça Skynet</translation>
+        <source>Send coins to a SMAC address</source>
+        <translation>Enviar monedes a una adreça SMAC</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Skynet</source>
-        <translation>Modificar les opcions de configuració per a Skynet</translation>
+        <source>Modify configuration options for SMAC</source>
+        <translation>Modificar les opcions de configuració per a SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -467,8 +467,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-202"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -477,8 +477,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Skynet</source>
-        <translation>&amp;Sobre Skynet</translation>
+        <source>&amp;About SMAC</source>
+        <translation>&amp;Sobre SMAC</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -534,13 +534,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Skynet client</source>
-        <translation>Client Skynet</translation>
+        <source>SMAC client</source>
+        <translation>Client SMAC</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Skynet network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Skynet</numerusform><numerusform>%n conexions actives a la xarxa Skynet</numerusform></translation>
+        <source>%n active connection(s) to SMAC network</source>
+        <translation><numerusform>%n conexió activa a la xarxa SMAC</numerusform><numerusform>%n conexions actives a la xarxa SMAC</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -579,13 +579,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-312"/>
-        <source>About Skynet card</source>
-        <translation>Sobre la tarjeta Skynet</translation>
+        <source>About SMAC card</source>
+        <translation>Sobre la tarjeta SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Skynet card</source>
-        <translation>Mostra informació sobre la tarjeta Skynet</translation>
+        <source>Show information about SMAC card</source>
+        <translation>Mostra informació sobre la tarjeta SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -660,8 +660,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skynet address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Skynet no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SMAC address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça SMAC no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -720,8 +720,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Skynet can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. Skynet ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. SMAC can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. SMAC ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1054,8 +1054,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skynet address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Skynet vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SMAC address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça SMAC vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1073,8 +1073,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Skynet-Qt</source>
-        <translation>Skynet-Qt</translation>
+        <source>SMAC-Qt</source>
+        <translation>SMAC-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1146,13 +1146,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skynet after logging in to the system.</source>
-        <translation>Inicia automàticament Skynet després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start SMAC after logging in to the system.</source>
+        <translation>Inicia automàticament SMAC després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skynet on system login</source>
-        <translation>&amp;Iniciar Skynet amb l&apos;inici de sessió</translation>
+        <source>&amp;Start SMAC on system login</source>
+        <translation>&amp;Iniciar SMAC amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1171,8 +1171,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skynet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client Skynet en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the SMAC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client SMAC en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1181,8 +1181,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skynet network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Skynet través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the SMAC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa SMAC través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1256,8 +1256,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skynet.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Skynet.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SMAC.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar SMAC.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1271,8 +1271,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skynet addresses in the transaction list or not.</source>
-        <translation>Per mostrar Skynet adreces a la llista de transaccions o no.</translation>
+        <source>Whether to show SMAC addresses in the transaction list or not.</source>
+        <translation>Per mostrar SMAC adreces a la llista de transaccions o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1318,8 +1318,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skynet.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Skynet.</translation>
+        <source>This setting will take effect after restarting SMAC.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar SMAC.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1337,8 +1337,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skynet network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. La seva cartera es sincronitza automàticament amb la xarxa Skynet després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SMAC network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. La seva cartera es sincronitza automàticament amb la xarxa SMAC després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1553,8 +1553,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skynet-Qt help message to get a list with possible Skynet command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de Skynet-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Skynet.</translation>
+        <source>Show the SMAC-Qt help message to get a list with possible SMAC command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de SMAC-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres SMAC.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1573,13 +1573,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Skynet - Debug window</source>
-        <translation>Skynet - Finestra Depuració</translation>
+        <source>SMAC - Debug window</source>
+        <translation>SMAC - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skynet Core</source>
-        <translation>Nucli Skynet</translation>
+        <source>SMAC Core</source>
+        <translation>Nucli SMAC</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1588,8 +1588,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skynet debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració Skynet des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the SMAC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració SMAC des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1598,8 +1598,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Skynet RPC console.</source>
-        <translation>Benvingut a la consola RPC de Skynet.</translation>
+        <source>Welcome to the SMAC RPC console.</source>
+        <translation>Benvingut a la consola RPC de SMAC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1757,8 +1757,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introdueix una adreça Skynet (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introdueix una adreça SMAC (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1857,8 +1857,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Skynet address</source>
-        <translation>ADVERTÈNCIA: Direcció Skynet invàlida</translation>
+        <source>WARNING: Invalid SMAC address</source>
+        <translation>ADVERTÈNCIA: Direcció SMAC invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1931,8 +1931,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introdueix una adreça Skynet (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introdueix una adreça SMAC (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
 </context>
 <context>
@@ -1992,8 +1992,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skynet address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Skynet</translation>
+        <source>Sign the message to prove you own this SMAC address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça SMAC</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2024,8 +2024,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skynet address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Skynet especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified SMAC address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça SMAC especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2035,8 +2035,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Introdueix una adreça Skynet (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Introdueix una adreça SMAC (p.ex. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2045,8 +2045,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skynet signature</source>
-        <translation>Introduïu la signatura Skynet</translation>
+        <source>Enter SMAC signature</source>
+        <translation>Introduïu la signatura SMAC</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2616,8 +2616,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Skynet version</source>
-        <translation>versió Skynet</translation>
+        <source>SMAC version</source>
+        <translation>versió SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2801,8 +2801,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skynet will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Skynet no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SMAC will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni SMAC no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2997,7 +2997,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </source>
         <translation>%s, ha d&apos;establir un rpcpassword al fitxer de configuració:
 %s
@@ -3008,7 +3008,7 @@ rpcpassword=%s
 El nom d&apos;usuari i contrasenya NO HA DE SER el mateix.
 Si no hi ha l&apos;arxiu, s&apos;ha de crear amb els permisos de només lectura per al propietari.
 També es recomana establir alertnotify per a que se li notifiquin els problemes;
-per exemple: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+per exemple: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3134,13 +3134,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Skynet is probably already running.</source>
-        <translation>No es pot obtenir un bloqueig en el directori de dades %s. Skynet probablement ja estigui en funcionament.</translation>
+        <source>Cannot obtain a lock on data directory %s.  SMAC is probably already running.</source>
+        <translation>No es pot obtenir un bloqueig en el directori de dades %s. SMAC probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3174,13 +3174,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skynet</source>
-        <translation>Error en carregar wallet.dat: La cartera requereix la versió més recent de Skynet</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SMAC</source>
+        <translation>Error en carregar wallet.dat: La cartera requereix la versió més recent de SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Skynet to complete</source>
-        <translation>La cartera necessita ser reescrita: reiniciar Skynet per completar</translation>
+        <source>Wallet needed to be rewritten: restart SMAC to complete</source>
+        <translation>La cartera necessita ser reescrita: reiniciar SMAC per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3249,8 +3249,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Skynet is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. Skynet probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. SMAC is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. SMAC probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-97"/>

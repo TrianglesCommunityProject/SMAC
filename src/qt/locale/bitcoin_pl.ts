@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skynet</source>
-        <translation>O Skynet</translation>
+        <source>About SMAC</source>
+        <translation>O SMAC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skynet&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Skynet&lt;/b&gt; wersja</translation>
+        <source>&lt;b&gt;SMAC&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SMAC&lt;/b&gt; wersja</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</source>
+Copyright © 2014 The SMAC developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,7 +63,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Skynet addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your SMAC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Tutaj znajdują się twoje adresy do odbierania wpłat.
 Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo pochodzi wpłata.</translation>
     </message>
@@ -79,8 +79,8 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skynet address</source>
-        <translation>Podpisz wiadomość by udowodnić, że jesteś właścicielem adresu Skynet</translation>
+        <source>Sign a message to prove you own a SMAC address</source>
+        <translation>Podpisz wiadomość by udowodnić, że jesteś właścicielem adresu SMAC</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Skynet address</source>
-        <translation>Zweryfikuj wiadomość, w celu zapewnienia, że została podpisana z określonego adresu Skynet</translation>
+        <source>Verify a message to ensure it was signed with a specified SMAC address</source>
+        <translation>Zweryfikuj wiadomość, w celu zapewnienia, że została podpisana z określonego adresu SMAC</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,7 +262,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-58"/>
-        <source>Skynet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>SMAC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -376,8 +376,8 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Skynet</source>
-        <translation>Pokaż informacje dotyczące Skynet</translation>
+        <source>Show information about SMAC</source>
+        <translation>Pokaż informacje dotyczące SMAC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,12 +426,12 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Skynet address</source>
-        <translation>Wyślij monety na adres Skynet</translation>
+        <source>Send coins to a SMAC address</source>
+        <translation>Wyślij monety na adres SMAC</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Skynet</source>
+        <source>Modify configuration options for SMAC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -471,8 +471,8 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-202"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,7 +481,7 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Skynet</source>
+        <source>&amp;About SMAC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -538,12 +538,12 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Skynet client</source>
+        <source>SMAC client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Skynet network</source>
+        <source>%n active connection(s) to SMAC network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -583,12 +583,12 @@ Możesz dodać kolejny adres dla każdego wysyłającego aby określić od kogo 
     </message>
     <message>
         <location line="-312"/>
-        <source>About Skynet card</source>
+        <source>About SMAC card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Skynet card</source>
+        <source>Show information about SMAC card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -668,7 +668,7 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skynet address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid SMAC address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -728,7 +728,7 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Skynet can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. SMAC can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1048,7 +1048,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skynet address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid SMAC address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1067,7 +1067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Skynet-Qt</source>
+        <source>SMAC-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1140,12 +1140,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skynet after logging in to the system.</source>
+        <source>Automatically start SMAC after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skynet on system login</source>
+        <source>&amp;Start SMAC on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1165,7 +1165,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skynet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the SMAC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1175,7 +1175,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skynet network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the SMAC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1250,7 +1250,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skynet.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SMAC.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1265,7 +1265,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skynet addresses in the transaction list or not.</source>
+        <source>Whether to show SMAC addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1312,7 +1312,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skynet.</source>
+        <source>This setting will take effect after restarting SMAC.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1331,7 +1331,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skynet network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SMAC network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1547,7 +1547,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skynet-Qt help message to get a list with possible Skynet command-line options.</source>
+        <source>Show the SMAC-Qt help message to get a list with possible SMAC command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1567,12 +1567,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Skynet - Debug window</source>
+        <source>SMAC - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skynet Core</source>
+        <source>SMAC Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1582,7 +1582,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skynet debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the SMAC debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1592,7 +1592,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Skynet RPC console.</source>
+        <source>Welcome to the SMAC RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1751,7 +1751,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1851,7 +1851,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Skynet address</source>
+        <source>WARNING: Invalid SMAC address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1925,7 +1925,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1986,7 +1986,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skynet address</source>
+        <source>Sign the message to prove you own this SMAC address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2018,7 +2018,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skynet address</source>
+        <source>Verify the message to ensure it was signed with the specified SMAC address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2029,7 +2029,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2039,7 +2039,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skynet signature</source>
+        <source>Enter SMAC signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2610,7 +2610,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Skynet version</source>
+        <source>SMAC version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2795,7 +2795,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skynet will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SMAC will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2990,7 +2990,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3116,12 +3116,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Skynet is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  SMAC is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>Skynet</source>
+        <source>SMAC</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3156,12 +3156,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skynet</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of SMAC</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Skynet to complete</source>
+        <source>Wallet needed to be rewritten: restart SMAC to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3231,7 +3231,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Skynet is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SMAC is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

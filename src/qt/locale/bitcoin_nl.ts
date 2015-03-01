@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Skynet</source>
-        <translation>Over Skynet</translation>
+        <source>About SMAC</source>
+        <translation>Over SMAC</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Skynet&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Skynet&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;SMAC&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SMAC&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Skynet developers</source>
+Copyright © 2014 The SMAC developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De Skynet ontwikkelaars</translation>
+Copyright © 2014 De SMAC ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your Skynet addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou Skynet adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your SMAC addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou SMAC adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Skynet address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Skynet adres bezit.</translation>
+        <source>Sign a message to prove you own a SMAC address</source>
+        <translation>Teken een bericht om te bewijzen dat je een SMAC adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified Skynet address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Skynet adres</translation>
+        <source>Verify a message to ensure it was signed with a specified SMAC address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek SMAC adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-58"/>
-        <source>Skynet will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Skynet zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>SMAC will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SMAC zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about Skynet</source>
-        <translation>Toon informatie over Skynet</translation>
+        <source>Show information about SMAC</source>
+        <translation>Toon informatie over SMAC</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a Skynet address</source>
-        <translation>Verstuur munten naar een Skynet adres</translation>
+        <source>Send coins to a SMAC address</source>
+        <translation>Verstuur munten naar een SMAC adres</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for Skynet</source>
-        <translation>Verander configuratie opties voor Skynet</translation>
+        <source>Modify configuration options for SMAC</source>
+        <translation>Verander configuratie opties voor SMAC</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-202"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About Skynet</source>
-        <translation>&amp;Over Skynet</translation>
+        <source>&amp;About SMAC</source>
+        <translation>&amp;Over SMAC</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>Skynet client</source>
-        <translation>Skynet client</translation>
+        <source>SMAC client</source>
+        <translation>SMAC client</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to Skynet network</source>
-        <translation><numerusform>%n actieve verbinding naar Skynet netwerk</numerusform><numerusform>%n actieve verbindingen naar Skynet netwerk</numerusform></translation>
+        <source>%n active connection(s) to SMAC network</source>
+        <translation><numerusform>%n actieve verbinding naar SMAC netwerk</numerusform><numerusform>%n actieve verbindingen naar SMAC netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-312"/>
-        <source>About Skynet card</source>
-        <translation>Over Skynet card</translation>
+        <source>About SMAC card</source>
+        <translation>Over SMAC card</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about Skynet card</source>
-        <translation>Toon informatie over Skynet card</translation>
+        <source>Show information about SMAC card</source>
+        <translation>Toon informatie over SMAC card</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Skynet address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig Skynet adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SMAC address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig SMAC adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,8 +729,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. Skynet can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . Skynet kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. SMAC can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . SMAC kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1063,8 +1063,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Skynet address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Skynet adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SMAC address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig SMAC adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>Skynet-Qt</source>
-        <translation>Skynet-Qt</translation>
+        <source>SMAC-Qt</source>
+        <translation>SMAC-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Skynet after logging in to the system.</source>
-        <translation>Automatisch starten van Skynet na inloggen van het systeem.</translation>
+        <source>Automatically start SMAC after logging in to the system.</source>
+        <translation>Automatisch starten van SMAC na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Skynet on system login</source>
-        <translation>&amp;Start Skynet bij systeem aanmelding</translation>
+        <source>&amp;Start SMAC on system login</source>
+        <translation>&amp;Start SMAC bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Skynet client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De Skynet client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the SMAC client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De SMAC client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Skynet network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het Skynet netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the SMAC network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het SMAC netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Skynet.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na Skynet opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SMAC.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na SMAC opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Skynet addresses in the transaction list or not.</source>
-        <translation>Skynet adressen in de transactielijst weergeven of niet</translation>
+        <source>Whether to show SMAC addresses in the transaction list or not.</source>
+        <translation>SMAC adressen in de transactielijst weergeven of niet</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Skynet.</source>
-        <translation>Deze instelling word toegepast na een restart van Skynet.</translation>
+        <source>This setting will take effect after restarting SMAC.</source>
+        <translation>Deze instelling word toegepast na een restart van SMAC.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Skynet network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het Skynet netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SMAC network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het SMAC netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Skynet-Qt help message to get a list with possible Skynet command-line options.</source>
-        <translation>Laat het Skynet-QT help bericht zien om een lijst te krijgen met mogelijke Skynet command-regel opties.</translation>
+        <source>Show the SMAC-Qt help message to get a list with possible SMAC command-line options.</source>
+        <translation>Laat het SMAC-QT help bericht zien om een lijst te krijgen met mogelijke SMAC command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Skynet - Debug window</source>
-        <translation>Skynet - Debugscherm</translation>
+        <source>SMAC - Debug window</source>
+        <translation>SMAC - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Skynet Core</source>
-        <translation>Skynet Kern</translation>
+        <source>SMAC Core</source>
+        <translation>SMAC Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Skynet debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Skynet debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the SMAC debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het SMAC debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the Skynet RPC console.</source>
-        <translation>Welkom bij de Skynet RPC console.</translation>
+        <source>Welcome to the SMAC RPC console.</source>
+        <translation>Welkom bij de SMAC RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1766,8 +1766,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Voeg een Skynet adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Voeg een SMAC adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid Skynet address</source>
-        <translation>WAARSCHUWING: Ongeldig Skynet adres</translation>
+        <source>WARNING: Invalid SMAC address</source>
+        <translation>WAARSCHUWING: Ongeldig SMAC adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1940,8 +1940,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Voeg een Skynet adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Voeg een SMAC adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
 </context>
 <context>
@@ -2001,8 +2001,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Skynet address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Skynet adres bezit.</translation>
+        <source>Sign the message to prove you own this SMAC address</source>
+        <translation>Teken een bericht om te bewijzen dat je een SMAC adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2033,8 +2033,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Skynet address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Skynet adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SMAC address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek SMAC adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Skynet address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
-        <translation>Voeg een Skynet adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
+        <source>Enter a SMAC address (e.g. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</source>
+        <translation>Voeg een SMAC adres in (bijv. Eav4Dpy6SDWVTWnBjVzccFzF91qwFJcGun)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Skynet signature</source>
-        <translation>Voer Skynet handtekening in</translation>
+        <source>Enter SMAC signature</source>
+        <translation>Voer SMAC handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>Skynet version</source>
-        <translation>Skynet versie</translation>
+        <source>SMAC version</source>
+        <translation>SMAC versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2810,8 +2810,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Skynet will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is Skynet zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SMAC will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is SMAC zal niet goed werken.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3006,7 +3006,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een rpcpassword instellen in het configuratiebestand: 
 %s 
@@ -3017,7 +3017,7 @@ rpcpassword = %s
 De gebruikersnaam en het wachtwoord MAG NIET hetzelfde zijn. 
 Als het bestand niet bestaat, maakt u met leesbare-alleen-eigenaar bestandsbeheermachtigingen.  
 Het wordt ook aanbevolen om alertnotify instellen zodat u een melding van problemen;  
-bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;Skynet Alert&quot; admin@foo.com </translation>
+bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;SMAC Alert&quot; admin@foo.com </translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3141,13 +3141,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;Skynet Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  Skynet is probably already running.</source>
-        <translation>Kan een slot op data directory %s niet verkrijgen. Skynet wordt waarschijnlijk al uitgevoerd.</translation>
+        <source>Cannot obtain a lock on data directory %s.  SMAC is probably already running.</source>
+        <translation>Kan een slot op data directory %s niet verkrijgen. SMAC wordt waarschijnlijk al uitgevoerd.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>Skynet</source>
-        <translation>Skynet</translation>
+        <source>SMAC</source>
+        <translation>SMAC</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3181,13 +3181,13 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;Skynet Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Skynet</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van Skynet</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SMAC</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van SMAC</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Skynet to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart Skynet om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart SMAC to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart SMAC om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3256,8 +3256,8 @@ bijvoorbeeld: alertnotify = echo %%s | mail -s &quot;Skynet Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. Skynet is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. Skynet is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. SMAC is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. SMAC is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-97"/>
