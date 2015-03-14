@@ -1009,8 +1009,8 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     //else
     //    nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
-    if(pindexBest->nHeight > 365 * DAILY_BLOCKCOUNT)
-        nSubsidy = nCoinAge  / COIN * nRewardCoinYear / 365;
+    if(pindexBest->nHeight > 15000)      // wurstgelee: change to desired forking block height
+        nSubsidy = (nCoinAge  / 365) * (nRewardCoinYear / COIN);
     else
         nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 

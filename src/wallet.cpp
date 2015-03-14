@@ -16,8 +16,8 @@
 using namespace std;
 extern unsigned int nStakeMaxAge;
 
-unsigned int nStakeSplitAge = 1 * 24 * 60 * 60;
-int64_t nStakeCombineThreshold = 1000 * COIN;
+unsigned int nStakeSplitAge = 3 * 24 * 60 * 60;  //wurstgelee: 3x nStakeMinAge so splitting does actually happen.
+int64_t nStakeCombineThreshold = 200 * COIN;     //Lower threshold results in steady block creation due to more overall inputs in network. Also helps to prevent hitting PoS reward calculation buffer overflow.
 
 //////////////////////////////////////////////////////////////////////////////
 //
