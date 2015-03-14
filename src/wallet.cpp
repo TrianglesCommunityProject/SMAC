@@ -16,7 +16,7 @@
 using namespace std;
 extern unsigned int nStakeMaxAge;
 
-unsigned int nStakeSplitAge = 3 * 24 * 60 * 60;  //wurstgelee: 3x nStakeMinAge so splitting does actually happen.
+unsigned int nStakeSplitAge = 2 * 24 * 60 * 60;  //wurstgelee: 3x nStakeMinAge so splitting does actually happen. boxxa: changed to 2 24 60 60
 int64_t nStakeCombineThreshold = 200 * COIN;     //Lower threshold results in steady block creation due to more overall inputs in network. Also helps to prevent hitting PoS reward calculation buffer overflow.
 
 //////////////////////////////////////////////////////////////////////////////
@@ -1608,7 +1608,7 @@ bool CWallet::CreateCoinStake(const CKeyStore& keystore, unsigned int nBits, int
         bool fKernelFound = false;
         for (unsigned int n=0; n<min(nSearchInterval,(int64_t)nMaxStakeSearchInterval) && !fKernelFound && !fShutdown && pindexPrev == pindexBest; n++)
         {
-            // Search backward in time from the given txNew timestamp 
+            // Search backward in time from the given txNew timestamp
             // Search nSearchInterval seconds back up to nMaxStakeSearchInterval
             uint256 hashProofOfStake = 0, targetProofOfStake = 0;
             COutPoint prevoutStake = COutPoint(pcoin.first->GetHash(), pcoin.second);
