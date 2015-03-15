@@ -992,12 +992,12 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     int64_t nRewardCoinYear;
 
     nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE;
-    // Off set 2 days so ICO days are not wasted
-    if(pindexBest->nHeight < 34 * DAILY_BLOCKCOUNT)
+    // Off set 2 days so ICO days are not wasted + offset another 2 days
+    if(pindexBest->nHeight < 36 * DAILY_BLOCKCOUNT)
         nRewardCoinYear = 365 * MAX_MINT_PROOF_OF_STAKE;
-    else if(pindexBest->nHeight < 64 * DAILY_BLOCKCOUNT)
+    else if(pindexBest->nHeight < 66 * DAILY_BLOCKCOUNT)
         nRewardCoinYear = 100 * MAX_MINT_PROOF_OF_STAKE;
-    else if(pindexBest->nHeight < 94 * DAILY_BLOCKCOUNT)
+    else if(pindexBest->nHeight < 96 * DAILY_BLOCKCOUNT)
         nRewardCoinYear = 25 * MAX_MINT_PROOF_OF_STAKE;
     else
         nRewardCoinYear = 3 * MAX_MINT_PROOF_OF_STAKE;
@@ -1009,7 +1009,7 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
     //else
     //    nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
-    if(pindexBest->nHeight > 13000)      // wurstgelee: change to desired forking block height boxxa: set to 1300 for about 1PM EST Sunday 3/15/2015
+    if(pindexBest->nHeight > 15000)      // wurstgelee/boxxa: 15000 to allow everyone to update in time
         nSubsidy = (nCoinAge  / 365) * (nRewardCoinYear / COIN);
     else
         nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
