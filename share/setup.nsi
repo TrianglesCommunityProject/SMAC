@@ -45,7 +45,7 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile europecoin-1.0.0-win32-setup.exe
+OutFile europecoin-1.0.1-win32-setup.exe
 InstallDir $PROGRAMFILES\SMAC
 CRCCheck on
 XPStyle on
