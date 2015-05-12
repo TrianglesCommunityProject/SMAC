@@ -991,31 +991,31 @@ int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
     int64_t nRewardCoinYear;
 
-    nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE;
+    //wurstgelee/boxxa: removed division by COIN from the equation in version 1.0.2 
+    nRewardCoinYear = 1;
     // Off set 2 days so ICO days are not wasted + offset another 2 days
     if(pindexBest->nHeight < 36 * DAILY_BLOCKCOUNT)
-        nRewardCoinYear = 365 * MAX_MINT_PROOF_OF_STAKE;
+        nRewardCoinYear = 365;
     else if(pindexBest->nHeight < 66 * DAILY_BLOCKCOUNT)
-        nRewardCoinYear = 100 * MAX_MINT_PROOF_OF_STAKE;
+        nRewardCoinYear = 100;
     else if(pindexBest->nHeight < 96 * DAILY_BLOCKCOUNT)
-        nRewardCoinYear = 25 * MAX_MINT_PROOF_OF_STAKE;
+        nRewardCoinYear = 25;
     else
-        nRewardCoinYear = 3 * MAX_MINT_PROOF_OF_STAKE;
+        nRewardCoinYear = 3;
 
     int64_t nSubsidy = 0;
-    //
-    //if(pindexBest->nHeight > 21 * DAILY_BLOCKCOUNT)
-    //    nSubsidy = nCoinAge  / COIN * nRewardCoinYear / 365;
-    //else
-    //    nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
 
     if(pindexBest->nHeight > 15000)      // wurstgelee/boxxa: 15000 to allow everyone to update in time
-        nSubsidy = (nCoinAge  / 365) * (nRewardCoinYear / COIN);
+        {
+        nSubsidy = (nCoinAge  / 365) * nRewardCoinYear / 100;
+        if (fDebug && GetBoolArg("-printcreation"))
+          printf("DEBUG nSubsidy=%"PRId64", nCoinAge/365=%"PRId64", nRewardCoinYear=%"PRId64"\n", (nCoinAge  / 365) * nRewardCoinYear, nCoinAge  / 365, nRewardCoinYear );
+        }
     else
-        nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
-
+        nSubsidy = nCoinAge * nRewardCoinYear / 365 / 100;
+    
     if (fDebug && GetBoolArg("-printcreation"))
-        printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
+        printf("GetProofOfStakeReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
 
     return nSubsidy + nFees;
 }
